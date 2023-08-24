@@ -9,13 +9,16 @@ body {
 .mainVolkcane {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     .h1-mainVolkcane {
-        display: flex;
         font-family: $fontVolkcane;
-        background: linear-gradient(to right, rgba(133,36,154,1), rgba(1,21,25,1) 100%);
-        -webkit-background-clip: text;
+        text-align: center;
+        background-image: linear-gradient(to bottom, rgba(133,36,154,1), rgb(72, 13, 85));
         background-clip: text;
-        color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: 10%;
+        margin-top: 1em;
     }
 }
