@@ -1,0 +1,21 @@
+$newWhite: #e2e2e2;
+$fontVolkcane: 'fontVolkcanePrincipal';
+
+
+body {
+    background-color: $newWhite;
+}
+
+.mainVolkcane {
+    display: flex;
+    flex-direction: column;
+
+    .h1-mainVolkcane {
+        display: flex;
+        font-family: $fontVolkcane;
+        background: linear-gradient(to right, rgba(133,36,154,1), rgba(1,21,25,1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
