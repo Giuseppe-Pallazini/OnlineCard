@@ -1,0 +1,40 @@
+$newWhite: #e2e2e2;
+$font-volkcane: 'font-Volkcane';
+$font-inter: 'font-inter';
+
+.main-lp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: $font-inter;
+
+    a:link, a:visited {
+        text-decoration: none;
+        color: default;
+    }   
+
+    .lp-h1 {
+        margin: 1em 0 1em 0;
+        color: #2f2f2f;
+    }
+
+    .sectionClientes {
+        display: flex;
+        flex-direction: column;
+
+        .clienteVolkcane {
+            color: #5e5e5e;
+            animation: up .4s .3s ease-in-out;
+        }
+    
+        @keyframes up {
+            0% { position: 0;}
+            50% { transform: translateY(-5px);}
+            100% { position: 0; }
+        }
+    }
+
+
+}
+

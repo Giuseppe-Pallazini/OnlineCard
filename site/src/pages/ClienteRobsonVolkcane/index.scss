@@ -1,5 +1,6 @@
 $newWhite: #e2e2e2;
-$fontVolkcane: 'fontVolkcanePrincipal';
+$font-volkcane: 'font-Volkcane';
+$font-inter: 'font-inter';
 
 
 body {
@@ -12,7 +13,7 @@ body {
     align-items: center;
 
     .h1-mainVolkcane {
-        font-family: $fontVolkcane;
+        font-family: $font-volkcane;
         text-align: center;
         background-image: linear-gradient(to bottom, rgba(133,36,154,1), rgb(72, 13, 85));
         background-clip: text;

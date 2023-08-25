@@ -1,6 +1,8 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-import RobsonVolkcane from './pages/ClienteRobsonVolkcane.js/index'
+import LandPage from './pages/landingPage/index';
+
+import RobsonVolkcane from './pages/ClienteRobsonVolkcane/index'
 
 export default function Index() {
 
@@ -8,6 +10,7 @@ export default function Index() {
         <BrowserRouter>
             <Routes>
                 <Route path='/RobsonVolkcane' element={<RobsonVolkcane />} />
+                <Route path='/' element={<LandPage />} />
             </Routes>
         </BrowserRouter>
     );
