@@ -9,7 +9,7 @@ export default function Index() {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='/RobsonVolkcane' element={<RobsonVolkcane />} />
+                <Route path='/robson-volkcane' element={<RobsonVolkcane />} />
                 <Route path='/' element={<LandPage />} />
             </Routes>
         </BrowserRouter>
