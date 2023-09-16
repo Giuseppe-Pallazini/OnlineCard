@@ -22,6 +22,8 @@ export default function Index() {
 
                 <p className='p-clique'> Clique no card que deseja! </p>
 
+                <p> Teste commit </p>
+
                 <section className='cards'>
 
                     <div className='card'>
