@@ -9,7 +9,7 @@ export default function Index() {
             <h1 className='lp-h1'> Rotas clientes </h1>
 
             <section className='sectionClientes'> 
-                <Link to='/RobsonVolkcane' className='clienteVolkcane'> Volkcane </Link>
+                <Link to='/robson-volkcane' className='clienteVolkcane'> Volkcane </Link>
             </section>
 
         </main>
