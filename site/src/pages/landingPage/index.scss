@@ -1,4 +1,5 @@
 $newWhite: #e2e2e2;
+$newBlack: #202020;
 $font-volkcane: 'font-Volkcane';
 $font-inter: 'font-inter';
 
@@ -16,7 +17,7 @@ $font-inter: 'font-inter';
 
     .lp-h1 {
         margin: 1em 0 1em 0;
-        color: $newWhite;
+        color: $newBlack;
     }
 
     .sectionClientes {
@@ -24,7 +25,7 @@ $font-inter: 'font-inter';
         flex-direction: column;
 
         .clienteVolkcane {
-            color: $newWhite;
+            color: $newBlack;
             animation: up .4s .3s ease-in-out;
         }
     
