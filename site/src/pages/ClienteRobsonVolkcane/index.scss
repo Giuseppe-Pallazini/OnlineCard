@@ -356,10 +356,6 @@ $font-inter: 'font-inter';
                 margin: .3em 0 0 0;
             }
 
-            .p-volkcane {
-
-            }
-
             .p-clique {
                 margin: 3.74em 0 0 0;
             }
@@ -378,9 +374,6 @@ $font-inter: 'font-inter';
                     height: auto;
                 }
 
-                .img-circuloChao {
-
-                }
             }
         }
     }
@@ -398,14 +391,6 @@ $font-inter: 'font-inter';
 
     @media (max-width: 1280px) {
         .background {
-
-            .h1-volkcane {
-
-            }
-
-            .p-clique {
-
-            }
 
             .cards {
                 width: 70%;
@@ -447,5 +432,53 @@ $font-inter: 'font-inter';
 
     }
 
+    @media (max-width: 360px) {
+        .background {
+            background-image: url('../../assets/images/backgroundFocoLuz360.svg');
+            .h1-volkcane {
+                font-size: 2.5em;
+            }
+
+            .p-volkcane {
+                font-size: .8em;
+            }
+
+            .p-clique {
+                font-size: .7em;
+                margin: 0;
+            }
+
+            .cards {
+                width: 100%;
+                // height: none;
+                flex-wrap: wrap;
+                border: 1px solid black;
+                margin: 0;
+
+                .card {
+                    transform: scale(.6);
+                    margin: 0;
+                }
+
+                .card:hover {
+                    transform: scale(.7);
+                }
+            }
+
+            .footer-volkcane {
+                margin: 0;
+                width: 220px;
+
+                .img-circuloChao {
+                    width: 220px;
+                }
+
+                .img-cartola {
+                    width: 90px;
+                    height: auto;
+                }
+            }
+        }
+    }
 
 }
