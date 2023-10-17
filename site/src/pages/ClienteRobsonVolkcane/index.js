@@ -29,6 +29,7 @@ export default function Index() {
 
                 <section className='cards'>
 
+
                     <Link to='https://www.instagram.com/robsonvolkcane/' className='card'>
                         <div className='div-naipe-cima'>
                             <img src={naipePaus} alt='' className='naipe-cima' />
