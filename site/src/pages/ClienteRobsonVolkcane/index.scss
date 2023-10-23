@@ -3,14 +3,14 @@ $newBlack: #202020;
 $font-volkcane: 'font-Volkcane';
 $font-inter: 'font-inter';
 
-
+body {
+    background-image: linear-gradient(to bottom, #151515, #3E3E3E);
+}
 
 .mainVolkcane {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(to bottom, #151515, #3E3E3E);
-    background-repeat: no-repeat;
 
     a:link,
     a:visited,
@@ -488,15 +488,44 @@ $font-inter: 'font-inter';
 
     @media (max-width: 1024px) {
         .background {
+            max-height: 100%;
+            overflow: hidden;
+
             background-size: 800px;
             .p-clique {
                 margin: 1em 0 1em;
             }
             .cards {
                 width: 100%;
-                // .card{
+                .card{
                     transform: scale(1.2);
                     margin: 2em;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 932px) {
+        .background {
+            background-size: 950px;
+
+            .p-clique {
+                margin: 2em 0 1em 0;
+            }
+
+            .cards {
+                width: 70%;
+                margin: 0;
+                .card {
+                    margin: 1em 2em;
+                    transform: scale(1);
+                }
+            }
+
+            .footer-volkcane {
+                .img-cartola {
+                    width: 200px;
+                    height: auto;
                 }
             }
         }
@@ -524,6 +553,80 @@ $font-inter: 'font-inter';
     //         }
     //     }
     // }
+
+    @media (max-width: 666px) {
+        .background {
+            background-image: url('../../assets/images/backgroundFocoLuz360.svg');
+            background-size: 500px;
+            .h1-volkcane {
+                font-size: 3em;
+            }
+
+            .p-volkcane {
+                font-size: 1em;
+            }
+            .cards {
+                width: 100%;
+                .card:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+    @media (max-width: 466px) {
+        .background {
+            .cards {
+                width: 110%;
+                .card {
+
+                }
+            }
+        }
+    }
+    
+    @media (max-width: 423px) {
+        .background {
+            .cards {
+                width: 100%;
+                .card {
+                    margin: 0 0 0 0;
+                    .div-naipe-cima {
+                        margin: 0 0 1.5em 0;
+                    }
+
+                    .logo {
+                        margin: 0 3.625em 1em 3.625em;
+                    }
+
+                    .p {
+                        font-size: .9em;
+                        margin: 0 0 1.5em 0;    
+                    }
+
+                    .p-site {
+                        font-size: .7em;
+                        margin: 0 0 2.5em 0;
+                    }
+
+                    width: 150px;
+                    height: 200px;
+                }
+            }
+
+            .footer-volkcane {
+                .img-cartola {
+                    width: 100px;
+                    height: auto;
+                    left: 1em;
+                }
+
+                .img-circuloChao {
+                    width: 300px;
+                }
+            }
+        }
+    }
 
     // @media (max-width: 425px) {
     //     .background {
