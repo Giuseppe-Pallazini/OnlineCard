@@ -43,7 +43,7 @@ export default function Index() {
                             </div>
                         </Link>
 
-                        <Link to='https://wa.me/5511988749207' className='card card-2'>
+                        <Link to='https://wa.me/5511992115754' className='card card-2'>
                             <div className='div-naipe-cima'>
                                 <img src={naipeEspadas} alt='' className='naipe-cima' />
                             </div>
