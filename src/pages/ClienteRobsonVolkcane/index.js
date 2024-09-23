@@ -24,7 +24,7 @@ export default function Index() {
             <section className='background'>
 
                 <section style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-                    <h1 className='h1-volkcane'>Volkcane</h1>
+                    <h1 translate="no" className='h1-volkcane'>Volkcane</h1>
                     <p className='p-volkcane'> Mágico e Palestrante</p>
 
                     <p className='p-clique'> Clique no card que deseja! </p>
